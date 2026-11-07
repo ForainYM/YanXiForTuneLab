@@ -112,7 +112,7 @@ VOICE_DIR=~/Music/MUTA/yanxi ./build.sh mac
   [TuneLab](https://github.com/LiuYunPlayer/TuneLab) 均为 MIT，原文见 `LICENSE-MUTAForTuneLab`、`LICENSE-TuneLab`。
 - **音源数据**：`voices/yanxi/` 下的 `.voice/.inf/.bnk/.chr/.nsp` **不适用 MIT**，适用
   [`LICENSE-VOICEBANK.txt`](LICENSE-VOICEBANK.txt)：非商业可自由使用（须署名「音源：嫣汐 TuneLab」），
-  禁止商业使用、二次配布、AI 训练与未授权移植。完整条款见 [`RULES.md`](RULES.md)（V1.0，2026-11-07 生效）。
+  禁止商业贩卖（可另行取得书面授权）、二次配布、AI 训练与未授权移植。完整条款见 [`RULES.md`](RULES.md)（V1.0，2026-11-07 生效）。
 - **权利说明**：音源数据来自原始 MUTA 嫣汐音源，由本包做格式转换；角色与原始数据的权利归原权利人，
   本包不对其主张权利，仅在取得原权利人法定代表人文字确认后进行非商业配布。权利人可随时联系下架。
 - **第三方**：Sinsy、HTS engine、WORLD、worldline 等组件的许可原文都在 `THIRD-PARTY-NOTICES.md`。
