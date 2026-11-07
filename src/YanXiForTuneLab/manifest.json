@@ -1,0 +1,29 @@
+{
+  "id": "com.forain.yanxifortunelab",
+  "name": "YanXi for TuneLab",
+  "version": "0.1.0",
+  "author": "Forain",
+  "description": "嫣汐 (YanXi) singing voice for TuneLab — a MUTA-engine voice plugin with the YanXi voicebank bundled in.",
+  "sdk-version": "1.1",
+  "extensions": [
+    {
+      "type": "voice",
+      "engine": "YanXi",
+      "name": "嫣汐 (YanXi)",
+      "introduction": "Introduction.md",
+      "localizations": {
+        "zh-CN": {
+          "name": "嫣汐",
+          "introduction": "Introduction.zh-CN.md"
+        },
+        "ja-JP": {
+          "name": "嫣汐 (ヤンシー)",
+          "introduction": "Introduction.ja.md"
+        }
+      },
+      "class": "YanXiForTuneLab.YanXiVoiceEngine",
+      "assembly": "YanXiForTuneLab.dll",
+      "platforms": [ "win-x64", "osx-arm64" ]
+    }
+  ]
+}

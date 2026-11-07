@@ -1,0 +1,23 @@
+# build outputs
+build/
+dist/
+artifacts/
+.cache/
+.native-build/
+.app-stage/
+
+# dotnet
+bin/
+obj/
+*.pdb
+*.user
+
+# voice banks: never committed (size + rights). Build copies them from VOICE_DIR.
+voices/
+
+# local test material
+*.wav
+*.tlpx
+
+.DS_Store
+__pycache__/
