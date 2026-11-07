@@ -110,9 +110,11 @@ VOICE_DIR=~/Music/MUTA/yanxi ./build.sh mac
 - **插件代码**：[MIT](LICENSE)，Copyright (c) 2026 Forain。可商用、可修改、可再分发，保留版权与许可声明即可。
 - **上游**：[MUTAForTuneLab](https://github.com/KakaruHayate/MUTAForTuneLab) 与
   [TuneLab](https://github.com/LiuYunPlayer/TuneLab) 均为 MIT，原文见 `LICENSE-MUTAForTuneLab`、`LICENSE-TuneLab`。
-- **声库**：`voices/yanxi/` 里的数据来自 MUTA 的嫣汐音源，权利归 MUTA 及其权利人。
-  本包只是把这些文件原样放进 TuneLab 插件里再分发，**不授予**任何音源、角色形象或 MUTA 程序的权利；
-  权利人如不希望被再分发，开 issue 即可下架。详见 [`THIRD-PARTY-NOTICES.md`](THIRD-PARTY-NOTICES.md) 第 0 节。
+- **音源数据**：`voices/yanxi/` 下的 `.voice/.inf/.bnk/.chr/.nsp` **不适用 MIT**，适用
+  [`LICENSE-VOICEBANK.txt`](LICENSE-VOICEBANK.txt)：非商业可自由使用（须署名「音源：嫣汐 TuneLab」），
+  禁止商业使用、二次配布、AI 训练与未授权移植。完整条款见 [`RULES.md`](RULES.md)（V1.0，2026-11-07 生效）。
+- **权利说明**：音源数据来自原始 MUTA 嫣汐音源，由本包做格式转换；角色与原始数据的权利归原权利人，
+  本包不对其主张权利，仅在取得原权利人法定代表人文字确认后进行非商业配布。权利人可随时联系下架。
 - **第三方**：Sinsy、HTS engine、WORLD、worldline 等组件的许可原文都在 `THIRD-PARTY-NOTICES.md`。
 
 ## 致谢

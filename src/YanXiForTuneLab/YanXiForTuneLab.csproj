@@ -88,6 +88,8 @@
     <Content Include="..\..\LICENSE" Link="LICENSE" CopyToOutputDirectory="PreserveNewest" />
     <Content Include="..\..\LICENSE-MUTAForTuneLab" Link="LICENSE-MUTAForTuneLab" CopyToOutputDirectory="PreserveNewest" />
     <Content Include="..\..\LICENSE-TuneLab" Link="LICENSE-TuneLab" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="..\..\LICENSE-VOICEBANK.txt" Link="LICENSE-VOICEBANK.txt" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="..\..\RULES.md" Link="RULES.md" CopyToOutputDirectory="PreserveNewest" />
     <Content Include="..\..\third_party\sinsy\LICENSE-sinsy.txt" Link="sinsy\LICENSE-sinsy.txt" CopyToOutputDirectory="PreserveNewest" />
     <Content Include="..\..\third_party\sinsy\dic\japanese.*.table" Link="sinsy\dic\%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
     <Content Include="..\..\third_party\sinsy\dic\japanese.*.conf" Link="sinsy\dic\%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
